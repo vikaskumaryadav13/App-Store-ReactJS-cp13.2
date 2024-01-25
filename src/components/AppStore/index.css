@@ -1,0 +1,68 @@
+/* Write your CSS here */
+.appstore-bg-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 28px;
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+}
+.appstore-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+}
+@media screen and (min-width: 768px) {
+  .appstore-container {
+    width: 700px;
+  }
+}
+.appstore-heading {
+  font-family: 'Bree serif';
+  font-size: 35px;
+  color: #1e293b;
+}
+.appstore-search-box-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #1e293b;
+  width: 80%;
+  border-radius: 2.5px;
+  margin-top: 16px;
+}
+@media screen and (min-width: 768px) {
+  .appstore-search-box-container {
+    width: 60%;
+  }
+}
+.search-input {
+  font-family: 'Roboto';
+  padding: 7px 0;
+  padding-left: 18px;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+}
+.search-icon {
+  height: 24px;
+  width: 24px;
+  margin-right: 2px;
+}
+.tabs-list {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 35px;
+  padding: 0;
+  list-style-type: none;
+}
+.apps-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 0;
+  padding: 0;
+}

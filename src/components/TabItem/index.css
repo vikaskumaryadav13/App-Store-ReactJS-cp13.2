@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.active-tab-btn {
+  border-bottom: 1.5px solid #2563eb;
+  padding-bottom: 7px;
+  color: #2563eb;
+}
+.tab-button {
+  font-family: 'Roboto';
+  font-weight: 400;
+  border-bottom: 1.5px solid #dfe2e5;
+  width: 80px;
+  color: #7b8794;
+  padding: 3px 15px;
+  font-size: 13px;
+  border: none;
+  background-color: transparent;
+}
